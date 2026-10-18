@@ -1,0 +1,15 @@
+# Front entrance ramp: two runs with a turning landing between them.
+# Bare numbers are inches because of the units line below.
+units: in
+name: Front entrance
+width: 48
+cross-slope: 1:50
+handrails: both
+handrail-height: 36
+handrail-extension: 12
+
+landing 60 60          # bottom landing
+run 15 200             # rise 15 in over 200 in: 1:13.33
+landing 60 60 turn     # turning landing
+run 15 200
+landing 60 60          # top landing
